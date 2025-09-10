@@ -1,9 +1,9 @@
 import requests
 
-# API endpoint
+#API
 url = "https://student-info-api.netlify.app/.netlify/functions/submit_student_info"
 
-# Your info in JSON format
+#JSON format
 data = {
     "UCID": "mb287",
     "first_name": "Massa",
